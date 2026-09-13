@@ -27,8 +27,11 @@ Retail archives are never touched.
 
 ## Run
 
-* **Exe:** download `TW1 Minimap Tool.exe` from the releases, no install.
-  Data lives in `%LOCALAPPDATA%\TW1MinimapTool\`.
+* **Exe:** download
+  [TW1_Minimap_Tool.exe (v1.0)](https://github.com/MedievalDev/TW1_MinimapTool/releases/download/v1.0/TW1_Minimap_Tool.exe)
+  from the [releases page](https://github.com/MedievalDev/TW1_MinimapTool/releases), no install.
+  Windows SmartScreen may warn once because the file is unsigned
+  (*More info → Run anyway*). Data lives in `%LOCALAPPDATA%\TW1MinimapTool\`.
 * **Script:** Python 3.13 with Pillow 12 (`pip install pillow`), then
   `python minimap_tool.py`. Data lives next to the script.
 
